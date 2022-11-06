@@ -25,3 +25,6 @@ Please read the detailed project [tutorial](https://www.balena.io/blog/build-a-s
 This project uses the [photo-gallery](https://github.com/balenablocks/photo-gallery) and [browser](https://github.com/balenablocks/browser) blocks.
 
 Please check the respective component's documentation for further customization.
+
+## Added by PKO
+- wifi-connect to allow connection through local wifi

@@ -10,3 +10,11 @@ services:
         environment: 
             LAUNCH_URL: '"http://photo-gallery:8888/"'
             KIOSK: '1'
+    wifi-connect:
+        image: balenablocks/wifi-connect:armv7hf
+        restart: always
+        network_mode: host
+        privileged: true
+        labels:
+            io.balena.features.dbus: '1'
+            io.balena.features.firmware: '1'

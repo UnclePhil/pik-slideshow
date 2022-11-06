@@ -1,4 +1,4 @@
-name: "Photo Slideshow"
+name: "PiK-Slideshow"
 type: "sw.application"
 description: "Display a photo slideshow of your favourite hosted albums."
 assets:
@@ -12,7 +12,9 @@ data:
   applicationEnvironmentVariables:
     - LAUNCH_URL: 'photo-gallery:8888/'
     - KIOSK: '1'
-    - GALLERY_URL: ''
+    - GALLERY_URL: 'https://photos.app.goo.gl/pDSzVTEE6WvkLfHf8'
+    - PORTAL_SSID: PiKSlideshow
+    - PORTAL_PASSPHRASE: PiKSlideshow
   defaultDeviceType: "raspberrypi3"
   supportedDeviceTypes:
     - "raspberrypi3"
